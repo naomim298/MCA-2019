@@ -1,4 +1,4 @@
-##Original Score 
+## Original Score 
 
 This is the sheet music I copied in order to create my own MuseScore file of Fleetwood Mac's 'Go Your Own Way'.  
 Full access required payment however, as the task requested, I only needed access to 10 bars.
