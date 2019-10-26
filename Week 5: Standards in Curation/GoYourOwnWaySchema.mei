@@ -42,9 +42,13 @@
                        </addrline>
                </address>
        <availability>
-           <useRestrict authURI="
-                   
-               
+           <useRestrict authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/”
+                                 authority="Creative Commons">Creative Commons Attribution 4.0 International, CC BY-NY-SA
+                                 </useRestrict>
+         </availability>
+                                                       
+                                            
+          
                  
              
               
