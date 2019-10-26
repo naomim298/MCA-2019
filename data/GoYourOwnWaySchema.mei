@@ -5,9 +5,49 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>go your own way</title>
-            </titleStmt>
+                <title>Go Your Own Way</title>
+                <title type="subtitle">
+                   <identifier>Encoded works of Fleetwood Mac</identifier>
+                </title>
             <pubStmt></pubStmt>
+            <respStmt>
+                <resp>Encoded by</resp>
+                <resp>Naomi MacKenzie</resp>
+            </respStmt>
+            </titleStmt>
+         <editionStmt>
+             <title>Fleetwood Mac's Go Your Own Way.</title>
+             <date>1976</date>
+             <edition>Second draft, significantly revised.
+                 <date><10-10-19</date>
+             <pubPlace>California</pubPlace>
+             <respStmt>
+                    <resp>Published by</resp>
+                    <corpName role="pbl">Shopify</corpName>
+                     <resp>Revised by</resp>
+                     <name>Naomi MacKenzie</name>
+             </respStmt>
+                     </edition>
+         </editionStmt>
+       <pubStmt>
+       <publisher>
+           <corpName>University of Glasgow Digital Media and Information Studies<corpName>
+               </publisher>
+               <address>
+                   <addrLine>
+                     <geogName>Glasgow</geogName>
+                   </addrLine>
+                   <addrLine>
+                     <geogName>United Kingdom</geogName>
+                       </addrline>
+               </address>
+       <availability>
+           <useRestrict authURI="
+                   
+               
+                 
+             
+              
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001582209656">
             <appInfo xml:id="appinfo-0000000904223861">
