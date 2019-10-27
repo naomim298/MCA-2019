@@ -9,7 +9,6 @@
                 <title type="subtitle">
                    <identifier>Encoded works of Fleetwood Mac</identifier>
                 </title>
-            <pubStmt></pubStmt>
             <respStmt>
                 <resp>Encoded by</resp>
                 <resp>Naomi MacKenzie</resp>
@@ -45,23 +44,37 @@
            <useRestrict authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/”
                                  authority="Creative Commons">Creative Commons Attribution 4.0 International, CC BY-NY-SA
                                  </useRestrict>
-         </availability>
-                                                       
-                                            
-          
-                 
-             
-              
-        </fileDesc>
+                                </availability>
+              </fileDesc>                                                                                              
         <encodingDesc xml:id="encodingdesc-0000001582209656">
             <appInfo xml:id="appinfo-0000000904223861">
                 <application xml:id="application-0000001242006595" isodate="2019-10-10T13:17:28" version="2.2.0-dev-c01b3a1-dirty">
+                                                                                                                                  
                     <name xml:id="name-0000001734948633">Verovio</name>
                     <p xml:id="p-0000001479125992">Transcoded from MusicXML</p>
+                                                  
                 </application>
             </appInfo>
         </encodingDesc>
-    </meiHead>
+       <workDesc>
+       <work>
+            <key>F major</key>
+               <tempo>136 BPM</tempo>
+                  <language>
+                     <langUsage>
+                       <language xml:id"en-US">American English</language>
+                    </langUsage>
+                  <context>Written by Lindsay Buckingham in relation to his break up with bandmate, Stevie Nicks.
+                    <xml:id="https://www.songfacts.com/facts/fleetwood-mac/go-your-own-way">
+                  </context>
+                <classification>
+                     <genre>1970s</genre>
+                      <genre>rock</genre>
+                          <genre>Pop Rock</genre>    
+                            <genre>Soft Rock</genre>
+                              <genre>Blues Rock</genre>
+                          </classification>
+                       </meiHead>
     <music>
         <body>
             <mdiv xml:id="mdiv-0000000396780216">
