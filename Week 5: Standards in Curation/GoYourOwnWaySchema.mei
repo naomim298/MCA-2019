@@ -66,9 +66,12 @@
                      <langUsage>
                        <language xml:id"en-US">American English</language>
                     </langUsage>
+                    </language>
                   <context>Written by Lindsay Buckingham in relation to his break up with bandmate, Stevie Nicks.
                     <xml:id="https://www.songfacts.com/facts/fleetwood-mac/go-your-own-way">
                   </context>
+                                                                                  
+                                                                                   
                 <classification>
                      <genre>1970s</genre>
                       <genre>rock</genre>
@@ -78,6 +81,7 @@
                           </classification>
                                                                                            </work>
                                                                                            </workDesc>
+                                                                                         
                                                                                        
                        </meiHead>
     <music>
