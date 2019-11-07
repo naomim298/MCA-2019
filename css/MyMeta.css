@@ -4,7 +4,11 @@ font-size: 24pt;
 
 mei-title[type="subordinate"] {
 font-size: 18pt; 
-font-variant-caps: small-caps ;
+font-variant-caps: small-caps;
 margin-top:-0.5em;
 }
 
+mei-filedesc > mei-titlestmt > mei-title {
+  colour: #595b66;
+  display: block;
+}
