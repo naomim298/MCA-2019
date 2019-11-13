@@ -7,14 +7,15 @@
             <titleStmt>
                 <head>
                 <title>Go Your Own Way</title>
-                <head>
+                </head>
                 <title type="subtitle">
                    <identifier>Encoded works of Fleetwood Mac</identifier>
                 </title>
+                <editionStmt>
                 <title>Fleetwood Mac's Go Your Own Way.</title>
-             <date>1976</date>
-             <edition>Second draft, significantly revised.
-                 <date>10-10-19</date>
+                    <date>1976</date>
+                    <edition>Second draft, significantly revised. </edition>
+                      <date>10-10-19</date>
              <pubPlace>California</pubPlace>
              <respStmt>
                     <resp>Published by</resp>
@@ -25,7 +26,7 @@
                 <resp>Encoded by</resp>
                 <resp>Naomi MacKenzie</resp>
             </respStmt>
-            </titleStmt>
+                 </editionStmt>
        <pubStmt>
        <publisher>
            <corpName>University of Glasgow Digital Media and Information Studies</corpName>
@@ -44,7 +45,7 @@
                                  authority="Creative Commons">Creative Commons Attribution 4.0 International, CC BY-NY-SA
                                  </useRestrict>
                                 </availability>
-              </fileDesc>                                                                                              
+                                                                                                          
         <encodingDesc xml:id="encodingdesc-0000001582209656">
             <appInfo xml:id="appinfo-0000000904223861">
                 <application xml:id="application-0000001242006595" isodate="2019-10-10T13:17:28" version="2.2.0-dev-c01b3a1-dirty">
@@ -76,8 +77,9 @@
                             <genre>Soft Rock</genre>
                               <genre>Blues Rock</genre>
                           </classification>
-                                                                                           </work>
-                                                                                           </workDesc>
+                                                                                           
+                                                                                           </fileDesc>
+                                                                                           </titleStmt>
                                                                                          
                                                                                        
                        </meiHead>
