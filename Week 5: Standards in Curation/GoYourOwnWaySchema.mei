@@ -5,17 +5,13 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
+                <head>
                 <title>Go Your Own Way</title>
+                <head>
                 <title type="subtitle">
                    <identifier>Encoded works of Fleetwood Mac</identifier>
                 </title>
-            <respStmt>
-                <resp>Encoded by</resp>
-                <resp>Naomi MacKenzie</resp>
-            </respStmt>
-            </titleStmt>
-         <editionStmt>
-             <title>Fleetwood Mac's Go Your Own Way.</title>
+                <title>Fleetwood Mac's Go Your Own Way.</title>
              <date>1976</date>
              <edition>Second draft, significantly revised.
                  <date>10-10-19</date>
@@ -25,9 +21,11 @@
                     <corpName role="pbl">Shopify</corpName>
                      <resp>Revised by</resp>
                      <name>Naomi MacKenzie</name>
-             </respStmt>
-                     </edition>
-         </editionStmt>
+            <respStmt>
+                <resp>Encoded by</resp>
+                <resp>Naomi MacKenzie</resp>
+            </respStmt>
+            </titleStmt>
        <pubStmt>
        <publisher>
            <corpName>University of Glasgow Digital Media and Information Studies</corpName>
