@@ -27,16 +27,18 @@
             </respStmt>
                  </editionStmt>
        <pubStmt>
-       <publisher>
-           <corpName>University of Glasgow Digital Media and Information Studies</corpName>
-               </publisher>
-               <address>
+           <corpName>
+               <publisher>University of Glasgow Digital Media and Information Studies</publisher>
+           </corpName>
+                <address>
                    <addrLine>
-                     <geogName>Glasgow</geogName>
-                     <geogName>United Kingdom</geogName>
+                     <geogName>
+                         <city>Glasgow</city>
+                         <country>United Kingdom</country>
+                             </geogName>
                        </addrline>
+           </address>
                </pubStmt>
-               </address>
        <availability>
            <useRestrict authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/”
                                  authority="Creative Commons">Creative Commons Attribution 4.0 International, CC BY-NY-SA
