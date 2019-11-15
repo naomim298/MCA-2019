@@ -5,16 +5,15 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <head>
-                <h1>
-                <title>Go Your Own Way</title>
-                    <h1>
+                <p>
+                <head>             
+                <title>Go Your Own Way</title> <br>        
                 </head>
                 <title type="subtitle">
-                   <identifier>Encoded works of Fleetwood Mac</identifier>
+                   <identifier>Encoded works of Fleetwood Mac</identifier> <br>
                 </title>
                 <editionStmt>
-                <title>Fleetwood Mac's Go Your Own Way.</title>
+                <title>Fleetwood Mac's Go Your Own Way.</title> <br>
                     <date>1976</date>
                     <edition>Second draft, significantly revised. </edition>
                       <date>10-10-19</date>
@@ -79,7 +78,7 @@
                             <genre>Soft Rock</genre>
                               <genre>Blues Rock</genre>
                           </classification>
-                                                                                           
+                                                                                           </p>
                                                                                            </fileDesc>
                                                                                            </titleStmt>
                                                                                          
