@@ -7,7 +7,7 @@ heading {
   font-size: 40px
 }
 
-heading, title, author, publisher, edition,  { 
+title, identifier, title, date, edition, date, resp, name, resp, resp, publisher, city, country { 
      display : block; 
 
 
