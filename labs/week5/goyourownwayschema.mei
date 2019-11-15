@@ -4,16 +4,13 @@
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
-            <titleStmt>
-                <p>
-                <head>             
-                <title>Go Your Own Way</title> <br>        
-                </head>
+            <titleStmt>             
+                <title>Go Your Own Way</title>       
                 <title type="subtitle">
-                   <identifier>Encoded works of Fleetwood Mac</identifier> <br>
+                   <identifier>Encoded works of Fleetwood Mac</identifier> 
                 </title>
                 <editionStmt>
-                <title>Fleetwood Mac's Go Your Own Way.</title> <br>
+                <title>Fleetwood Mac's Go Your Own Way.</title> 
                     <date>1976</date>
                     <edition>Second draft, significantly revised. </edition>
                       <date>10-10-19</date>
@@ -35,8 +32,6 @@
                <address>
                    <addrLine>
                      <geogName>Glasgow</geogName>
-                   </addrLine>
-                   <addrLine>
                      <geogName>United Kingdom</geogName>
                        </addrline>
                </pubStmt>
@@ -78,7 +73,7 @@
                             <genre>Soft Rock</genre>
                               <genre>Blues Rock</genre>
                           </classification>
-                                                                                           </p>
+                                                                                          
                                                                                            </fileDesc>
                                                                                            </titleStmt>
                                                                                          
