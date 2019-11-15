@@ -1,6 +1,9 @@
 body {
- background-color: #e6eeff;
+ background-color: #F2E1E1;
 }
+
+
+
 
 html {
   margin: 0;
@@ -8,7 +11,7 @@ html {
   margin-left: 2em;
   margin-right: 4em;
   padding: 2.5em;
-  font-family: "Lucida Console";
+  font-family: "Lucida Console", Sans Serif, Times;
   font-size: 13pt;
   background-color: #d6d6c2
   color: #292929;
