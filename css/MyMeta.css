@@ -2,6 +2,13 @@ body {
  background-color: #F2E1E1;
 }
 
+heading {
+ color: #2A1B1B
+  font-size: 40px
+}
+
+heading, title, author, publisher, edition,  { 
+     display : block; 
 
 
 
