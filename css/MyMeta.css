@@ -7,8 +7,12 @@ heading {
   font-size: 40px
 }
 
-title, identifier, title, date, edition, date, resp, name, resp, resp, publisher, city, country { 
-     display : block; 
+tei-ab {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+ 
+
 
 
 
