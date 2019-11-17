@@ -5,10 +5,14 @@
     <heading>Week 5 Lab</heading>
     <meiHead>
         <fileDesc>
-            <titleStmt>             
-                <title>Go Your Own Way</title>       
+            <titleStmt> 
+                <div>
+                <title>Go Your Own Way</title>   
+                </div>
                 <title type="subtitle">
+                    <div>
                    <identifier>Encoded works of Fleetwood Mac</identifier> 
+                    </div>
                 </title>
                 <editionStmt>
                 <title>Fleetwood Mac's Go Your Own Way.</title> 
