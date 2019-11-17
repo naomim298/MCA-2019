@@ -7,22 +7,350 @@ heading {
   font-size: 40px
 }
 
-tei-choice tei-abbr + tei-expan:before,
-tei-choice tei-expan + tei-abbr:before,
-tei-choice tei-sic + tei-corr:before,
-tei-choice tei-corr + tei-sic:before,
-tei-choice tei-orig + tei-reg:before,
-tei-choice tei-reg + tei-orig:before {
-  content: " (";
+tei-ab {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
-tei-choice tei-abbr + tei-expan:after,
-tei-choice tei-expan + tei-abbr:after,
-tei-choice tei-sic + tei-corr:after,
-tei-choice tei-corr + tei-sic:after,
-tei-choice tei-orig + tei-reg:after,
-tei-choice tei-reg + tei-orig:after {
-  content: ")";
-
+tei-accMat {
+  display: block;
+}
+tei-accMat:before {
+  content: "accompanying materials: ";
+}
+tei-acquisition {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+tei-acquisition:before {
+  font-weight: bold;
+  content: "acquisition";
+}
+tei-activity {
+  display: block;
+}
+tei-activity:before {
+  content: "activity: ";
+}
+tei-actor {
+  /* Empty Rule Set */
+}
+/* add */
+/* Could add other [place=] variations */
+tei-add[place=above] {
+  vertical-align: super;
+}
+tei-add[place=inline]:before {
+  content: "«";
+}
+tei-add[place=inline]:after {
+  content: "»";
+}
+tei-add[place=below] {
+  vertical-align: sub;
+}
+tei-addName {
+  /* Empty Rule Set */
+}
+tei-addSpan {
+  /* Empty Rule Set */
+}
+tei-additional {
+  display: block;
+}
+tei-additions {
+  display: block;
+}
+tei-additions:before {
+  content: "Significant additions within the document: ";
+}
+tei-addrLine {
+  display: block;
+}
+tei-address {
+  /* Empty Rule Set */
+}
+tei-address[data-tei-rend~="block"], addresss[data-tei-rendition~="#block"] {
+  display: block;
+}
+tei-adminInfo {
+  display: block;
+}
+tei-affiliation {
+  /* Empty Rule Set */
+}
+tei-age {
+  /* Empty Rule Set */
+}
+tei-alt {
+  /* Empty Rule Set */
+}
+tei-altGrp {
+  /* Empty Rule Set */
+}
+tei-altIdent {
+  /* Empty Rule Set */
+}
+tei-altIdentifier {
+  /* Empty Rule Set */
+}
+tei-am {
+  /* Empty Rule Set */
+}
+tei-analytic {
+  /* Empty Rule Set */
+}
+tei-anchor {
+  /* Empty Rule Set */
+}
+tei-app {
+  /* Empty Rule Set */
+}
+tei-app tei-note {
+  display: none;
+}
+tei-appInfo {
+  display: block;
+}
+tei-appInfo:before {
+  content: "Application information: ";
+}
+tei-application {
+  display: block;
+}
+tei-application:after {
+  content: " " attr(version);
+}
+tei-arc {
+  /* Empty Rule Set */
+}
+tei-argument {
+  display: block;
+}
+tei-att {
+  font-family: Courier,monospace;
+}
+tei-att:before {
+  content: "@";
+}
+tei-attDef {
+  /* Empty Rule Set */
+}
+tei-attList {
+  /* Empty Rule Set */
+}
+tei-attRef {
+  /* Empty Rule Set */
+}
+tei-author {
+  /* Empty Rule Set */
+}
+tei-titleStmt > tei-author {
+  display: block;
+  margin-bottom: 1em;
+}
+tei-authority {
+  /* Empty Rule Set */
+}
+tei-publicationStmt > tei-availability {
+  font-size: 80%;
+}
+tei-publicationStmt > tei-availability:before {
+  font-weight: bold;
+  content: "Availability: ";
+}
+tei-publicationStmt > tei-availability[data-tei-status]:before {
+  font-weight: bold;
+  content: "Availability (" attr(status) "): ";
+}
+/* B */
+tei-back {
+  display: block;
+}
+tei-bibl {
+  /* Empty Rule Set */
+}
+tei-bibl[data-tei-rend~="block"], bibl[data-tei-rendition~="#block"] {
+  display: block;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+tei-biblFull {
+  display: block;
+}
+tei-biblScope {
+  /* Empty Rule Set */
+}
+tei-biblStruct {
+  /* Empty Rule Set */
+}
+tei-bicond {
+  /* Empty Rule Set */
+}
+tei-binary {
+  /* Empty Rule Set */
+}
+tei-binaryObject {
+  /* Empty Rule Set */
+}
+tei-binding {
+  display: block;
+}
+tei-binding:before {
+  content: "Binding: \a";
+  white-space: pre-wrap;
+}
+tei-binding[data-tei-contemporary]:before {
+  content: "Binding: \A" "Contemporary: " attr(contemporary) "\A";
+  white-space: pre-wrap;
+}
+tei-bindingDesc {
+  display: block;
+}
+tei-bindngDesc:before {
+  content: "Binding Description: \A";
+}
+tei-birth {
+  display: block;
+}
+tei-birth:before {
+  content: "Birth: ";
+}
+tei-bloc {
+  /* Empty Rule Set */
+}
+tei-broadcast {
+  /* Empty Rule Set */
+}
+tei-byline {
+  /* Empty Rule Set */
+}
+/* c */
+tei-c {
+  /* Empty Rule Set */
+}
+tei-cRefPattern {
+  display: none;
+}
+tei-caesura {
+  /* Empty Rule Set */
+}
+tei-camera {
+  /* Empty Rule Set */
+}
+tei-caption {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+tei-case[data-tei-value]:before {
+  font-weight: bold;
+  content: attr(value) " ";
+}
+tei-castGroup {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+tei-castItem {
+  display: list-item;
+}
+tei-castList {
+  display: block;
+  list-style-type: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+tei-catDesc {
+  /* Empty Rule Set */
+}
+tei-catRef {
+  /* Empty Rule Set */
+}
+tei-category {
+  /* Empty Rule Set */
+}
+tei-cb {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+tei-cb:before {
+  content: "[column break]";
+}
+tei-cell {
+  display: table-cell;
+  padding: 1em 1.5em 1em 1em;
+  /*
+tei-border-left: 2px solid @border-color;
+tei-border-top:2px solid @border-color;
+tei-*/
+  border: 1px dotted #aaaaaa;
+  width: 100%;
+}
+/* for cell or row with @role = label */
+tei-[data-tei-role=label] {
+  font-weight: bold;
+}
+tei-certainty {
+  /* Empty Rule Set */
+}
+tei-change {
+  /* Empty Rule Set */
+}
+tei-channel {
+  /* Empty Rule Set */
+}
+tei-charDecl {
+  /* Empty Rule Set */
+}
+tei-charName {
+  /* Empty Rule Set */
+}
+tei-charProp {
+  /* Empty Rule Set */
+}
+tei-choice {
+  /* Empty Rule Set */
+}
+tei-cit {
+  /* Empty Rule Set */
+}
+tei-cl {
+  /* Empty Rule Set */
+}
+tei-classCode {
+  /* Empty Rule Set */
+}
+tei-classDecl {
+  /* Empty Rule Set */
+}
+tei-classRef {
+  /* Empty Rule Set */
+}
+tei-classSpec {
+  /* Empty Rule Set */
+}
+tei-classes {
+  /* Empty Rule Set */
+}
+tei-climate {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+tei-climate:before {
+  font-weight: bold;
+  content: "Climate: ";
+}
+tei-closer {
+  /* Empty Rule Set */
+}
+tei-code {
+  font-family: Courier,monospace;
+}
 
 
 
