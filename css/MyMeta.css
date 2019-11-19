@@ -25,7 +25,7 @@ mei-filedesc > mei-pubstmt > mei-publisher::before {
 }
   
 
-mei-filedesc > mei-pubstmt > mei-date::before {
+mei-filedesc > mei-pubstmt > mei-date::after {
   display: block;
   font-weight: bold;
  content: "Date Published: "
