@@ -13,10 +13,10 @@ mei-filedesc > mei-titlestmt > mei-editionstmt > {
 
 mei-filedesc > mei-titlestmt> mei-editionstmt > mei-title:
 :before {
- content: '\a' "title: ";
-  display: block;
-   font-family: Arial;
   font-weight: bold;
+   font-family: Arial; 
+   display: block;
+   content: "Song Title: "
 }
 
 mei-filedesc > mei-titlestmt> mei-editionstmt > mei-date::before {
@@ -40,7 +40,7 @@ mei-pubstmt > mei-address {
 
 mei-filedesc > mei-pubstmt > mei-date::before {
   font-weight: bold;
-  content: "Date encoded: "
+  content: "Date Published: "
 }
 
 mei-filedesc > mei-pubstmt > mei-date::after {
