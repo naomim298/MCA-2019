@@ -1,15 +1,14 @@
 
-mei-filedesc > mei-titlestmt > mei-title {
+mei-filedesc > mei-titleStmt > mei-title {
   color: #black;
   display: block;
   font weight: bold;
 }
-mei-filedesc > mei-titlestmt > mei-editionstmt > mei-title::before{
-  content: "Song Title";
-  font-family: Arial;
-  font-weight: bold;
-  display: block;
-}
+mei-filedesc > mei-titleStmt > mei-editionStmt > mei-title {
+ display: block;
+ font weight: bold;
+ content: "Song Title";
+  }
 
 mei-filedesc > mei-titlestmt> mei-editionstmt > mei-date::before {
   font-weight: bold;
