@@ -2,54 +2,85 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
-   <meiHead>
-    <fileDesc>
-<titleStmt>
-          <title>Go Your Own Way</title>
-<composer>Lindsay Buckingham</composer>
-<lyricist>Stevie Nicks</lyricist>
-<arranger>Shopify</arranger>
-<respStmt>
-<resp>Encoded By</resp>
-                      <name>Naomi MacKenzie</name> 
-</respStmt>
-</titleStmt>
-
-<editionStmt>
-           <edition>
-                    <respStmt>
+	<heading>Schema</heading>
+	   <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Go Your Own Way</title> 
+                <title type="subtitle">
+                    <identifier>Encoded works of Fleetwood Mac</identifier> 
+                </title>
+            </titleStmt>
+            <fileDesc>
+                <editionStmt>
+                     <title>Fleetwood Mac's Go Your Own Way.</title> 
+                     <date>1976.</date>
                       <edition>Second draft, significantly revised.</edition> 
-                     <date>10.10.19</date>
- 		<album>Rumours</album>
-</respStmt>
-</editionStmt>
+                     <date>10-10-19</date> 
+                      <pubPlace>California</pubPlace>
+             <respStmt>
+                  <resp>Published by</resp> 
+                    <corpName role="pbl">Shopify</corpName> 
+                        <resp>Revised by</resp> 
+                      <name>Naomi MacKenzie</name> 
 
-<pubStmt xml:id=”X”>
-<publisher authURI=” https://globalmusicrights.com/artist/1412025”>Now Sounds Music</publisher>
-<address>
-<addrLine>C/O Kobalt Licensing. </addrLine>
-<addrLine>Kobalt Music Publishing America</addrLine>
-<addrLine>INC. 2 Gansevoort St</addrLine>
-<addrLine>NY 10014</addrLine>
-<geogName> New York</geogName>
-</address>
-<date>December 1976</date>
-<availability>
-	<useRestrict authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/”
-                                 authority="Creative Commons">Creative Commons Attribution 4.0>
-			Global Music Rights</useRestrict>
-</availability>
-</pubStmt>
-<notesStmt>
-<workList>
- 	          <genre>1970s</genre>
+                <resp>Encoded by</resp>
+                <resp>Naomi MacKenzie</resp>
+            </respStmt>
+                 </editionStmt>
+       <pubStmt>
+           <corpName>
+               <publisher>University of Glasgow Digital Media and Information Studies</publisher>
+           </corpName>
+                <address>
+                   <addrLine>
+                     <geogName>
+                         <city>Glasgow</city>
+                         <country>United Kingdom</country>
+                             </geogName>
+                       </addrline>
+           </address>
+               </pubStmt>
+       <availability>
+           <useRestrict authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/”
+                                 authority="Creative Commons">Creative Commons Attribution 4.0 International, CC BY-NY-SA
+                                 </useRestrict>
+                                </availability>
+                                                             
+                                                                                                          
+        <encodingDesc xml:id="encodingdesc-0000001582209656">
+            <appInfo xml:id="appinfo-0000000904223861">
+                <application xml:id="application-0000001242006595" isodate="2019-10-10T13:17:28" version="2.2.0-dev-c01b3a1-dirty">
+                                                                                                                                  
+                    <name xml:id="name-0000001734948633">Verovio</name>
+                    <p xml:id="p-0000001479125992">Transcoded from MusicXML</p>
+                                                  
+                </application>
+            </appInfo>
+        </encodingDesc>
+       <workList>
+       <work>
+            <key>F major</key>
+               <tempo>136 BPM</tempo>
+                  <language>
+                     <langUsage>
+                       <language xml:id"en-US">American English</language>
+                    </langUsage>
+                    </language>
+                  <context>Written by Lindsay Buckingham in relation to his break up with bandmate, Stevie Nicks.
+                    <xml:id="https://www.songfacts.com/facts/fleetwood-mac/go-your-own-way">
+                  </context>
+                     </workList>
+                                                                                  
+                                                                                   
+                <classification>
+                     <genre>1970s</genre>
                       <genre>rock</genre>
                           <genre>Pop Rock</genre>    
                             <genre>Soft Rock</genre>
                               <genre>Blues Rock</genre>
-</workList>
-                                                             </meiHead>
-                                                             </fileDesc>
+                          </classification>
+                                              
     <music>
         <body>
             <mdiv xml:id="mdiv-0000000396780216">
