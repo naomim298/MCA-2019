@@ -1,10 +1,10 @@
 
-mei-filedesc > mei-titleStmt > mei-title {
+mei-filedesc > mei-titlestmt > mei-title {
   color: #black;
   display: block;
   font weight: bold;
 }
-mei-filedesc > mei-editionStmt > mei-title::before {
+mei-filedesc > mei-editionstmt > mei-title::before {
  display: block;
  font weight: bold;
  content: "Song Title"
