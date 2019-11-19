@@ -11,7 +11,7 @@ mei-filedesc > mei-titlestmt > mei-editionStmt > {
 
 
 
-mei-filedesc > mei-titlestmt> mei-editionStmt > mei title:
+mei-filedesc > mei-titlestmt> mei-editionStmt > mei-title:
 :before {
  content: "title";
    font-family: Arial;
