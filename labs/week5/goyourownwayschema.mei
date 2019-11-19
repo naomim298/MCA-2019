@@ -46,15 +46,16 @@
 			Global Music Rights</useRestrict>
 </availability>
 </pubStmt>
-<noteStmt>
+<workList>
 	<classification>
-       <genre>1970s</genre>
-                      <genre>rock</genre>
-                          <genre>Pop Rock</genre>    
-                            <genre>Soft Rock</genre>
-                              <genre>Blues Rock</genre>
+       <term>1970s</term>
+                      <term>rock</term>
+                          <term>Pop Rock</term>    
+                            <term>Soft Rock</term>
+                              <term>Blues Rock</term>
 							     </classification>
-							     </noteStmt>
+							     </workList>
+							     
 
 							     
 							     
