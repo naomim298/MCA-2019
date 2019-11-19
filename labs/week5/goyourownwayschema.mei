@@ -30,22 +30,37 @@
                  </editionStmt>
        <pubStmt>
            <corpName>
-               <publisher>University of Glasgow Digital Media and Information Studies</publisher>
+               <publisher>Now Sounds Music</publisher>
            </corpName>
-                <address>
-                   <addrLine>
-                     <geogName>
-                         <city>Glasgow</city>
-                         <country>United Kingdom</country>
-                             </geogName>
-                       </addrline>
-           </address>
-               </pubStmt>
-       <availability>
-           <useRestrict authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/”
-                                 authority="Creative Commons">Creative Commons Attribution 4.0 International, CC BY-NY-SA
-                                 </useRestrict>
-                                </availability>
+           <address>
+<addrLine>C/O Kobalt Licensing. </addrLine>
+<addrLine>Kobalt Music Publishing America</addrLine>
+<addrLine>INC. 2 Gansevoort St</addrLine>
+<addrLine>NY 10014</addrLine>
+		   <address>
+<geogName> New York</geogName>
+<date>December 1976</date>
+<availability>
+	<useRestrict authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/”
+                                 authority="Creative Commons">Creative Commons Attribution 4.0
+			Global Music Rights</useRestrict>
+</availability>
+</pubStmt>
+<noteStmt>
+	<classification>
+       <genre>1970s</genre>
+                      <genre>rock</genre>
+                          <genre>Pop Rock</genre>    
+                            <genre>Soft Rock</genre>
+                              <genre>Blues Rock</genre>
+							     </classification>
+							     </noteStmt>
+
+							     
+							     
+
+							     
+							 
                                                              
                                                                                                           
         <encodingDesc xml:id="encodingdesc-0000001582209656">
@@ -70,18 +85,9 @@
                   <context>Written by Lindsay Buckingham in relation to his break up with bandmate, Stevie Nicks.
                     <xml:id="https://www.songfacts.com/facts/fleetwood-mac/go-your-own-way">
                   </context>
-                     </workList>
-                                                                                  
-                                                                                   
-                <classification>
-                     <genre>1970s</genre>
-                      <genre>rock</genre>
-                          <genre>Pop Rock</genre>    
-                            <genre>Soft Rock</genre>
-                              <genre>Blues Rock</genre>
-                          </classification>
-                                              
-    <music>
+											   </workList>                                                           
+                   
+                               <music>
         <body>
             <mdiv xml:id="mdiv-0000000396780216">
                 <score xml:id="score-0000000188389002">
