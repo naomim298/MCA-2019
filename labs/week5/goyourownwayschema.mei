@@ -10,6 +10,8 @@
                 <title type="subtitle">
                     <identifier>Encoded works of Fleetwood Mac</identifier> 
                 </title>
+            </titleStmt>
+            <fileDesc>
                 <editionStmt>
                      <title>Fleetwood Mac's Go Your Own Way.</title> 
                      <date>1976.</date>
@@ -44,6 +46,7 @@
                                  authority="Creative Commons">Creative Commons Attribution 4.0 International, CC BY-NY-SA
                                  </useRestrict>
                                 </availability>
+                                                             
                                                                                                           
         <encodingDesc xml:id="encodingdesc-0000001582209656">
             <appInfo xml:id="appinfo-0000000904223861">
@@ -55,7 +58,7 @@
                 </application>
             </appInfo>
         </encodingDesc>
-       <workDesc>
+       <workList>
        <work>
             <key>F major</key>
                <tempo>136 BPM</tempo>
@@ -67,6 +70,7 @@
                   <context>Written by Lindsay Buckingham in relation to his break up with bandmate, Stevie Nicks.
                     <xml:id="https://www.songfacts.com/facts/fleetwood-mac/go-your-own-way">
                   </context>
+                     </workList>
                                                                                   
                                                                                    
                 <classification>
@@ -76,9 +80,9 @@
                             <genre>Soft Rock</genre>
                               <genre>Blues Rock</genre>
                           </classification>
+                                              
+                                                             
                                                                                           
-                                                                                           </fileDesc>
-                                                                                           </titleStmt>
                                                                                          
                                                                                        
                        </meiHead>
