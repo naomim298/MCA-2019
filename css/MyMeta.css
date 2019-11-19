@@ -4,7 +4,7 @@ mei-filedesc > mei-titlestmt > mei-title {
   display: block;
   font weight: bold;
 }
-mei-filedesc > mei-titlestmt> mei-editionstmt > mei-title::before{
+mei-filedesc > mei-titlestmt > mei-editionstmt > mei-title::before{
   content: "Song Title";
   font-family: Arial;
   font-weight: bold;
