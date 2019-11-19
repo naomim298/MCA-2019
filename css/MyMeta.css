@@ -4,20 +4,21 @@ mei-filedesc > mei-titleStmt > mei-title {
   display: block;
   font weight: bold;
 }
-mei-filedesc > mei-titleStmt > mei-editionStmt > mei-title::after {
+mei-filedesc > mei-titleStmt > mei-editionStmt > mei-title::before {
  display: block;
  font weight: bold;
- content: "Song Title";
+ content: "Song Title"
   }
 
 mei-filedesc > mei-titlestmt> mei-editionstmt > mei-date::before {
   font-weight: bold;
   display: block;
-  content: "Encoded by: ";
+  content: "Encoded by: "
 }
 
 
 mei-filedesc > mei-pubstmt > mei-date::before {
+  display: block;
   font-weight: bold;
-  content: "Date Published: "
+ content: "Date Published: "
 }
