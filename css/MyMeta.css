@@ -4,7 +4,7 @@ mei-filedesc > mei-titlestmt > mei-title {
   display: block;
   font weight: bold;
 }
-mei-filedesc > mei-titlestmt> mei-editionstmt > mei-title:
+mei-filedesc > mei-titlestmt> mei-editionstmt > :
 :before {
   font-weight: bold;
    font-family: Arial; 
