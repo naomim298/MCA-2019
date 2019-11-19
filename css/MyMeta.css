@@ -18,7 +18,7 @@ mei-filedesc > mei-editionstmt > mei-date::before {
 
 
 
-mei-filedesc > mei-pubstmt > mei-publisher::before {
+mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before {
   display: block;
   font-weight: bold;
   content: "Publisher Rights: "
