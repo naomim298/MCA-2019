@@ -4,21 +4,30 @@ mei-filedesc > mei-titleStmt > mei-title {
   display: block;
   font weight: bold;
 }
-mei-filedesc > mei-titleStmt > mei-editionStmt > mei-title::before {
+mei-filedesc > mei-editionStmt > mei-title::before {
  display: block;
  font weight: bold;
  content: "Song Title"
   }
 
-mei-filedesc > mei-titlestmt> mei-editionstmt > mei-date::before {
+mei-filedesc > mei-editionstmt > mei-date::before {
   font-weight: bold;
   display: block;
   content: "Encoded by: "
 }
 
 
+
+mei-filedesc > mei-pubstmt > mei-publisher::before {
+  display: block;
+  font-weight: bold;
+  content: "Publisher Rights: "
+}
+  
+
 mei-filedesc > mei-pubstmt > mei-date::before {
   display: block;
   font-weight: bold;
  content: "Date Published: "
 }
+
