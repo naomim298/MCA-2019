@@ -8,8 +8,8 @@ mei-filedesc > mei-titlestmt> mei-editionstmt > mei-title::before{
   content: "Song Title";
   font-family: Arial;
   font-weight: bold;
-  : ;
- }
+  display: block;
+}
 
 mei-filedesc > mei-titlestmt> mei-editionstmt > mei-date::before {
   font-weight: bold;
