@@ -10,22 +10,23 @@ mei-filedesc > mei-editionStmt > mei-title::before {
  content: "Song Title"
   }
 
-mei-filedesc > mei-editionstmt > mei-date::before {
-  font-weight: bold;
+mei-filedesc > mei-editionstmt > mei-title > mei-date::before {
   display: block;
+  font-weight: bold;
   content: "Encoded by: "
 }
 
 
 
 mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before {
-  display: block;
-  font-weight: bold;
-  content: "Publisher Rights: "
+ display: block;
+  font weight: bold;
+  content: "Publishing Rights: "
 }
   
 
 mei-filedesc > mei-pubstmt > mei-date::before { 
+ display: block;
  font-weight: bold;
  content: "Date Published: "
 }
