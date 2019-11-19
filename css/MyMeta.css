@@ -4,7 +4,7 @@ mei-filedesc > mei-titleStmt > mei-title {
   display: block;
   font weight: bold;
 }
-mei-filedesc > mei-titleStmt > mei-editionStmt > mei-title {
+mei-filedesc > mei-titleStmt > mei-editionStmt > {
  display: block;
  font weight: bold;
  content: "Song Title";
