@@ -7,7 +7,7 @@ mei-filedesc > mei-titlestmt > mei-title {
 mei-filedesc > mei-editionstmt > mei-title::before {
  display: block;
  font weight: bold;
- content: "Song Title"
+ content: "Song Title: "
   }
 
 mei-filedesc > mei-editionstmt > mei-title > mei-date::before {
