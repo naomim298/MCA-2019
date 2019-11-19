@@ -1,23 +1,21 @@
-mei-title[type="subordinate"] {
-  font-size: 18pt;
-  font-variant-caps: small-caps;
-  margin-top: -0.5em;
-}
 
 mei-filedesc > mei-titlestmt > mei-title {
   color: #595b66;
   display: block;
 }
 
-mei-filedesc > mei-titlestmt > mei-respstmt {
+mei-filedesc > mei-titlestmt > mei-editionStmt > {
   display: block;
   margin-top: 1em;
 }
 
-mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
+
+
+mei-filedesc > mei-titlestmt> mei-editionStmt > mei title:
+:before {
+ content: "title";
+   font-family: Arial;
   font-weight: bold;
-  content: '\a'"Composer: ";
-  white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::before {
@@ -142,14 +140,6 @@ mei-workdesc {
   display: none;
 }
 
-mei-revisiondesc {
-  display: none;
-}
-
-/* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
-html > body {
-  margin: 0;
-  padding: 0;
 }
 html {
   margin: 0;
