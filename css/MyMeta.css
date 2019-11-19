@@ -13,13 +13,15 @@ mei-filedesc > mei-titlestmt > mei-editionstmt > {
 
 mei-filedesc > mei-titlestmt> mei-editionstmt > mei-title:
 :before {
- content: '\a'"title";
+ content: '\a' "title: ";
+  display: block;
    font-family: Arial;
   font-weight: bold;
 }
 
-mei-filedesc > mei-titlestmt> meieditionstmt > mei-persname[role="encoder"]::before {
+mei-filedesc > mei-titlestmt> mei-editionstmt > mei-date::before {
   font-weight: bold;
+  display: block;
   content: '\a'"Encoded by: ";
   white-space: pre;
 }
