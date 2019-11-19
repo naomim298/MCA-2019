@@ -2,8 +2,8 @@
 mei-filedesc > mei-titlestmt > mei-title {
   color: #black;
   display: block;
+  font weight: bold;
 }
-
 mei-filedesc > mei-titlestmt> mei-editionstmt > mei-title:
 :before {
   font-weight: bold;
