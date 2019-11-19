@@ -4,21 +4,21 @@ mei-filedesc > mei-titlestmt > mei-title {
   display: block;
 }
 
-mei-filedesc > mei-titlestmt > mei-editionStmt > {
+mei-filedesc > mei-titlestmt > mei-editionstmt > {
   display: block;
   margin-top: 1em;
 }
 
 
 
-mei-filedesc > mei-titlestmt> mei-editionStmt > mei-title:
+mei-filedesc > mei-titlestmt> mei-editionstmt > mei-title:
 :before {
- content: "title";
+ content: '\a'"title";
    font-family: Arial;
   font-weight: bold;
 }
 
-mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::before {
+mei-filedesc > mei-titlestmt> meieditionstmt > mei-persname[role="encoder"]::before {
   font-weight: bold;
   content: '\a'"Encoded by: ";
   white-space: pre;
