@@ -36,12 +36,6 @@ mei-filedesc > mei-editionstmt > mei-title > mei-date::before {
   display: block;
 }
 
-
-
-mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before {
-  
-  content: "Publishing Rights: "
-}
   
 
 mei-filedesc > mei-pubstmt > mei-date::before { 
