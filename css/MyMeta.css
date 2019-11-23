@@ -33,11 +33,13 @@ mei-filedesc > mei-editionstmt > mei-pubplace::before
 
 mei-filedesc > mei-editionstmt > mei-title > mei-date::before {
   content: "Encoded by: "
+  display: block;
 }
 
 
 
 mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before {
+  
   content: "Publishing Rights: "
 }
   
