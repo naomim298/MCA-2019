@@ -38,8 +38,3 @@ mei-filedesc > mei-editionstmt > mei-title > mei-date::before {
 
   
 
-mei-filedesc > mei-pubstmt > mei-date::before { 
- display: block;
- content: "Date Published: "
-}
-
