@@ -39,19 +39,11 @@
            </corpName>
                 <address>
                    <addrLine>
-                     <geogName>
-                         <city>Glasgow</city>
-                         <country>United Kingdom</country>
-                             </geogName>
+                     <geogName>Glasgow, United Kingdom</geogName>
                        </addrline>
            </address>
                </pubStmt>
-       <availability>
-           <useRestrict authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/”
-                                 authority="Creative Commons">Creative Commons Attribution 4.0 International, CC BY-NY-SA
-                                 </useRestrict>
-                                </availability>
-                                                             
+		    </filedesc>
                                                                                                           
         <encodingDesc xml:id="encodingdesc-0000001582209656">
             <appInfo xml:id="appinfo-0000000904223861">
@@ -63,25 +55,8 @@
                 </application>
             </appInfo>
         </encodingDesc>
-       <workList>
-       <work>
-            <key>F major</key>
-               <tempo>136 BPM</tempo>
-                  <language>
-                     <langUsage>
-                       <language xml:id"en-US">American English</language>
-                    </langUsage>
-                    </language>
-                  <context>Written by Lindsay Buckingham in relation to his break up with bandmate, Stevie Nicks.
-                    <xml:id="https://www.songfacts.com/facts/fleetwood-mac/go-your-own-way">
-                  </context>
-                     </workList>
-                                                                                  
-                                                                                   
- 
                                               
-    <music>
-        <body>
+                                                                                                                   
             <mdiv xml:id="mdiv-0000000396780216">
                 <score xml:id="score-0000000188389002">
                     <scoreDef xml:id="scoredef-0000000746282770">
