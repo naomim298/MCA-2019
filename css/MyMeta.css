@@ -11,7 +11,6 @@ mei-filedesc > mei-editionstmt > mei-title::before
   }
 
 mei-filedesc > mei-editionstmt > mei-title > mei-date::before {
-  display: block;
   font-weight: bold;
   content: "Encoded by: "
 }
@@ -19,14 +18,12 @@ mei-filedesc > mei-editionstmt > mei-title > mei-date::before {
 
 
 mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before {
- display: block;
   font weight: bold;
   content: "Publishing Rights: "
 }
   
 
 mei-filedesc > mei-pubstmt > mei-date::before { 
- display: block;
  font-weight: bold;
  content: "Date Published: "
 }
