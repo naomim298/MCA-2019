@@ -13,23 +13,34 @@ mei-filedesc > mei-titlestmt > mei-title {
 mei-filedesc > mei-editionstmt > mei-title::before
 {
  content: "Song Title: "
+ display: block;
   }
 
 mei-filedesc > mei-editionstmt > mei-date::before
 {
 content: "Year Released: "
+  display: block;
 }
 
 mei-filedesc > mei-editionstmt > mei-edition::before
 {
   content: "Edition: "
- 
+    display: block;
 }
 
 mei-filedesc > mei-editionstmt > mei-pubplace::before
 {
   content: "Recorded in: "
+    display: block;
 }
+
+mei-filedesc > mei-editionstmt > mei-classification > mei-genre::before
+{
+  content: Genre Categories: "
+    display: block;
+}
+
+mei-filedesc > mei-editionstmt > mei-repstmt < mei-resp
 
 mei-filedesc > mei-editionstmt > mei-title > mei-date::before {
   content: "Encoded by: "
