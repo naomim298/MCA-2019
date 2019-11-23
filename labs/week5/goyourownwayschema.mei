@@ -29,11 +29,8 @@
 			
 		<respStmt>
                     <corpName>Warner Bros</corpName> 
-			<!--revised by:-->
+			<!--revised and encoded by:-->
                       <name>Naomi MacKenzie</name> 
-
-                <resp>Encoded by</resp>
-                <resp>Naomi MacKenzie</resp>
             </respStmt>
                  </editionStmt>
        <pubStmt>
