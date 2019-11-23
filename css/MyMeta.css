@@ -3,6 +3,7 @@ mei-filedesc > mei-titlestmt > mei-title {
   color: #black;
   display: block;
   font weight: bold;
+  font size: 36px;
 }
 
 mei-filedesc > mei-editionstmt > mei-title::before
@@ -24,7 +25,11 @@ mei-filedesc > mei-editionstmt > mei-edition::before
   content: "Edition: "
 }
 
-mei-filedesc > 
+mei-filedesc > mei-editionstmt > mei-pubplace::before
+{
+  font weight: bold;
+  content: Recorded in: "
+}
 
 mei-filedesc > mei-editionstmt > mei-title > mei-date::before {
   font-weight: bold;
