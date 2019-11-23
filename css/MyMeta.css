@@ -1,10 +1,14 @@
 
+
+
+
 mei-filedesc > mei-titlestmt > mei-title {
   color: #black;
   display: block;
   font weight: bold;
   font size: 36px;
 }
+
 
 mei-filedesc > mei-editionstmt > mei-title::before
 {
@@ -13,13 +17,13 @@ mei-filedesc > mei-editionstmt > mei-title::before
 
 mei-filedesc > mei-editionstmt > mei-date::before
 {
-display: block;
 content: "Year Released: "
 }
 
 mei-filedesc > mei-editionstmt > mei-edition::before
 {
   content: "Edition: "
+ 
 }
 
 mei-filedesc > mei-editionstmt > mei-pubplace::before
