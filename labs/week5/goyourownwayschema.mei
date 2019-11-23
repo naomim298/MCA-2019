@@ -29,7 +29,7 @@
 			
 		<respStmt>
                     <corpName>Warner Bros</corpName> 
-                        <resp>Revised by</resp> 
+			<!--revised by:-->
                       <name>Naomi MacKenzie</name> 
 
                 <resp>Encoded by</resp>
