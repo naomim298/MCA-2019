@@ -36,14 +36,32 @@ mei-filedesc > mei-editionstmt > mei-pubplace::before
 
 mei-filedesc > mei-editionstmt > mei-classification > mei-genre::before
 {
-  content: Genre Categories: "
+  content: "Genre Categories: "
     display: block;
 }
 
-mei-filedesc > mei-editionstmt > mei-repstmt < mei-resp
+mei-filedesc > mei-editionstmt > mei-repstmt > mei-corpname::before
+{
+  content: "Record Label: "
+  display: block;
+}
 
-mei-filedesc > mei-editionstmt > mei-title > mei-date::before {
-  content: "Encoded by: "
+mei-filedesc > mei-editionstmt > mei-respstmt > mei-name::before
+{
+  content: "Revised by: "
+    display: block;
+}
+
+
+mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before
+{
+  content: "Published by: "
+  display: block;
+}
+
+mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
+{
+  content: "Location: "
   display: block;
 }
 
