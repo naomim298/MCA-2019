@@ -36,7 +36,7 @@ mei-filedesc > mei-editionstmt > mei-classification > mei-genre::before
     display: block;
 }
 
-mei-filedesc > mei-editionstmt > mei-repstmt > mei-corpname::before
+mei-filedesc > mei-editionstmt > mei-resptmt > mei-corpname::before
 {
   content: "Record Label: "
   display: block;
