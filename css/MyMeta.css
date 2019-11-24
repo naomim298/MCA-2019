@@ -1,27 +1,23 @@
 
-mei-filedesc > mei-titlestmt > mei-title::before
+mei-filedesc > mei-titlestmt > mei-title 
 {
   color: black;
   display: block;
   font weight: bold;
 }
 
-#title12345 {
-  font-size: 26pt;
-}
 
 mei-filedesc > mei-editionstmt > mei-title::before
 {
- 
  content: "Song Title: "
  display: block;
   }
 
 mei-filedesc > mei-editionstmt > mei-date::before
 {
-content: "Year Released: "
-  font-weight: bold;
-  display: block;
+   display: block;
+  content: "Year Released: "
+
 }
 
 mei-filedesc > mei-editionstmt > mei-edition::before
