@@ -16,11 +16,9 @@ mei-filedesc > mei-titlestmt > mei-title
 
 mei-filedesc > mei-editionstmt > mei-date::before
 {
-  font: bold;
    display: block;
   content: "Year Released: "
-    white-space: pre;
-
+    font weight: bold;
 }
 
 mei-filedesc > mei-editionstmt > mei-edition::before
