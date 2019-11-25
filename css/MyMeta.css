@@ -52,8 +52,8 @@ mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before
 
 mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
 {
-  content: "Location: "
   display: block;
+  content: "Location: "
 }
 
   
