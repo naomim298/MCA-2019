@@ -15,16 +15,9 @@
                       <date>1976.</date>
                       <edition>Second draft, significantly revised.</edition>
                       <pubPlace>California</pubPlace>
-			
-			  <classification>
-                     <genre>1970s,</genre>
-                      <genre>Rock,</genre>
-                          <genre>Pop Rock,</genre>    
-                            <genre>Soft Rock,</genre>
-                              <genre>Blues Rock,</genre>
-                          </classification>            
-			
-			
+		<classification>
+                     <genre>1970s, Rock, Pop Rock, Soft Rock, Blues Rock</genre>
+                  </classification>            	
 		<respStmt>
                     <corpName>Warner Bros</corpName> 
 			<!--revised and encoded by:-->
