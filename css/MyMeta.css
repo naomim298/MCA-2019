@@ -9,9 +9,9 @@ mei-filedesc > mei-titlestmt > mei-title
 
 mei-filedesc > mei-editionstmt > mei-title::before
 {
- content: "Song Title: "
- display: block;
-  }
+  display: block;
+  content: "Song Title: " 
+}
 
 mei-filedesc > mei-editionstmt > mei-date::before
 {
@@ -22,39 +22,39 @@ mei-filedesc > mei-editionstmt > mei-date::before
 
 mei-filedesc > mei-editionstmt > mei-edition::before
 {
+  display: block;
   content: "Edition: "
-    display: block;
 }
 
 mei-filedesc > mei-editionstmt > mei-pubplace::before
 {
-  content: "Recorded in: "
     display: block;
+   content: "Recorded in: "
 }
 
 mei-filedesc > mei-editionstmt > mei-classification > mei-genre::before
 {
+   display: block; 
   content: "Genre Categories: "
-    display: block;
 }
 
 mei-filedesc > mei-editionstmt > mei-resptmt > mei-corpname::before
 {
-  content: "Record Label: "
   display: block;
+  content: "Record Label: "
 }
 
 mei-filedesc > mei-editionstmt > mei-respstmt > mei-name::before
 {
+  display: block;
   content: "Revised by: "
-    display: block;
 }
 
 
 mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before
 {
-  content: "Published by: "
   display: block;
+  content: "Published by: "
 }
 
 mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
