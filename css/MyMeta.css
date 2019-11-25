@@ -63,9 +63,18 @@ mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
   content: "Location: "
 }
 
+mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
+{
+  content: '\a \a';
+  white-space: pre;
+}
+
+
 mei-filedesc > workstmt {
   display: none;
 }
+
+
 
 
 html {
