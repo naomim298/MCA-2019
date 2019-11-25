@@ -1,12 +1,4 @@
 
-title {
-  font-size: 26pt;
-}
-    
-mei-title[type="subordinate"]{
-  font-size: 24;
-}
-
 mei-filedesc > mei-titlestmt > mei-title 
 {
   color: black;
@@ -18,7 +10,6 @@ mei-filedesc > mei-editionstmt > mei-date::before
 {
    display: block;
   content: "Year Released: "
-    font weight: bold;
 }
 
 mei-filedesc > mei-editionstmt > mei-edition::before
