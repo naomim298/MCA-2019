@@ -21,8 +21,7 @@ mei-filedesc > mei-editionstmt > mei-edition::before
 mei-filedesc > mei-editionstmt > mei-pubplace::before
 {
     display: block;
-   content: '\a'"Recorded in: "
-     white-space: pre;
+   content: "Recorded in: "    
 }
 
 mei-filedesc > mei-editionstmt > mei-classification > mei-genre::before
