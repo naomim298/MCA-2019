@@ -6,13 +6,6 @@ mei-filedesc > mei-titlestmt > mei-title
   font weight: bold;
 }
 
-
-mei-filedesc > mei-editionstmt > mei-title::before
-{
-  display: block;
-  content: "Song Title: " 
-}
-
 mei-filedesc > mei-editionstmt > mei-date::before
 {
    display: block;
