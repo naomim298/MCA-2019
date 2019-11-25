@@ -50,11 +50,23 @@ mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before
   content: "Published by: "
 }
 
+
+
 mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
 {
   display: block;
   content: "Location: "
 }
 
+html {
+  margin: 1;
+  padding: 0;
+  margin-left: 2em;
+  margin-right: 4em;
+  padding: 2.5em;
+  font-family: "Sans Serif", "Cardo", "Arial Unicode MS";
+  font-size: 12pt;
+  background-color: grey;
+  color: #292929;
   
 
