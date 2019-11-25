@@ -39,7 +39,7 @@ mei-filedesc > mei-editionstmt > mei-classification > mei-genre::before
   content: "Genre Categories: "
 }
 
-mei-filedesc > mei-editionstmt > mei-resptmt > mei-corpname::before
+mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
 {
   display: block;
   content: "Record Label: "
