@@ -1,4 +1,12 @@
 
+title {
+  font-size: 26pt;
+}
+    
+mei-title[type="subordinate"]{
+  font-size: 24;
+}
+
 mei-filedesc > mei-titlestmt > mei-title 
 {
   color: black;
@@ -72,6 +80,6 @@ html {
   font-family: "Sans Serif", "Cardo", "Arial Unicode MS";
   font-size: 12pt;
   background-color: #C8C1C1;
-  color: #292929;
+  color: #272626;
   
 
