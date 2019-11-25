@@ -9,7 +9,7 @@ mei-filedesc > mei-titlestmt > mei-title
 mei-filedesc > mei-editionstmt > mei-date::before
 {
    display: block;
-  content: "Year Released: "
+  content: '\a'"Year Released: "
 
 }
 
