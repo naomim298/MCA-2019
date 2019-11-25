@@ -3,7 +3,8 @@ mei-filedesc > mei-titlestmt > mei-title
 {
   color: black;
   display: block;
-  font weight: bold;
+  font-weight: bold;
+  font-size: 26pt;
 }
 
 mei-filedesc > mei-editionstmt > mei-date::before
