@@ -6,38 +6,38 @@ mei-filedesc > mei-titlestmt > mei-title
   font-weight: bold;
   font-size: 26pt;
 }
-mei-filedesc > mei-editionstmt > mei-date{
+mei-filedesc > mei-editionstmt > mei-date {
    display: block;
  }
 
 mei-filedesc > mei-editionstmt > mei-date::before
 {
-  content: "Year Released: "
+  content: "Year Released:" ;
     font-weight: bold;
 }
 
 mei-filedesc > mei-editionstmt > mei-edition::before
 {
   display: block;
-  content: "Edition: "
+  content: "Edition: ";
 }
 
 mei-filedesc > mei-editionstmt > mei-pubplace::before
 {
     display: block;
-   content: "Recorded in: "    
+   content: "Recorded in: ";    
 }
 
 mei-filedesc > mei-editionstmt > mei-classification > mei-genre::before
 {
    display: block; 
-  content: "Genre Categories: "
+  content: "Genre Categories: ";
 }
 
 mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
 {
   display: block;
-  content: "Record Label: "
+  content: "Record Label: ";
 }
 
 mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
@@ -49,14 +49,14 @@ mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
 mei-filedesc > mei-editionstmt > mei-respstmt > mei-name::before
 {
   display: block;
-  content: "Revised by: "
+  content: "Revised by: ";
 }
 
 
 mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before
 {
   display: block;
-  content: "Published by: "
+  content: "Published by: ";
 }
 
 
@@ -64,7 +64,7 @@ mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before
 mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
 {
   display: block;
-  content: "Location: "
+  content: "Location: ";
 }
 
 mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
