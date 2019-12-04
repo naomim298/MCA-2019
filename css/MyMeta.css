@@ -65,14 +65,14 @@ mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
 }
   
 
+mei-filedesc > mei-editionstmt > mei-respstmt > mei-name{
+  display: none;
+  }
+
 mei-filedesc > mei-pubstmt > mei-date::after {
   content: '\a \a';
   white-space: pre;
 }
-
-mei-filedesc > mei-editionstmt > mei-respstmt > mei-name{
-  display: block;
-  }
 
 mei-filedesc > mei-editionstmt > mei-respstmt > mei-name::before
 {
