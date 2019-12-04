@@ -6,11 +6,14 @@ mei-filedesc > mei-titlestmt > mei-title
   font-weight: bold;
   font-size: 26pt;
 }
+mei-filedesc > mei-editionstmt > mei-date{
+   display: block;
+ }
 
 mei-filedesc > mei-editionstmt > mei-date::before
 {
-   display: block;
   content: "Year Released: "
+    font-weight: bold;
 }
 
 mei-filedesc > mei-editionstmt > mei-edition::before
