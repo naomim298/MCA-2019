@@ -1,6 +1,5 @@
 # MCA-2019
-Naomi's Lab Work for MCA.
-
+## Index of Labs
 [Week 1: Basics of Music Data](https://naomim298.github.io/MCA-2019/labs/week1/introfleetwoodmac.html)  
 [Week 2: Notation Basics](https://naomim298.github.io/MCA-2019/labs/week2/musescore.html)  
 [Week 3: Encoding Basics for Notation](https://naomim298.github.io/MCA-2019/labs/week3/veroviofile.html)  
