@@ -17,13 +17,14 @@
                       <pubPlace>California</pubPlace>
 		<classification>
                      <genre>1970s, Rock, Pop Rock, Soft Rock, Blues Rock</genre>
-                  </classification>            	
+                  </classification>
+			</editionstmt>
 		<respStmt>
                     <corpName>Warner Bros</corpName> 
 			<!--revised and encoded by:-->
                       <name>Naomi MacKenzie</name> 
             </respStmt>
-                 </editionStmt>
+                
        <pubStmt>
            <corpName>
                <publisher>University of Glasgow Digital Media and Information Studies</publisher>
