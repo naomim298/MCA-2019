@@ -58,17 +58,13 @@ mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname{
   display: block;
 }
 
-mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
+mei-filedesc > meieditionstmt > mei-respstmt > mei-corpname::before
 {
   content: "Record Label: ";
   font-weight: bold;
 }
+  
 
-mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
-{
-  content: '\a \a';
-  white-space: pre;
-}
 
 mei-filedesc > mei-editionstmt > mei-respstmt > mei-name{
   display: block;
@@ -80,7 +76,6 @@ mei-filedesc > mei-editionstmt > mei-respstmt > mei-name::before
   font-weight: bold;
 }
 
-
 mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher{
   display: block;
 }
@@ -90,8 +85,6 @@ mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before
   content: "Published by: ";
   font-weight: bold;
 }
-
-
 
 mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname{
   display: block;
@@ -106,7 +99,6 @@ mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
 mei-filedesc > workstmt {
   display: none;
 }
-
 
 html {
   margin: 1;
