@@ -2,7 +2,7 @@
 ## Index of Labs
 [Week 1: Basics of Music Data](https://naomim298.github.io/MCA-2019/labs/week1/introfleetwoodmac.html)  
 [Week 2: Notation Basics](https://naomim298.github.io/MCA-2019/labs/week2/musescore.html)  
-[Week 3: Encoding Basics for Notation](https://naomim298.github.io/MCA-2019/labs/week3/veroviofile.html)  
+[Week 3: Encoding Basics for Notation](https://naomim298.github.io/MCA-2019/veroviofile.html)  
 [Week 4: Computational Analyses](https://naomim298.github.io/MCA-2019/labs/week4/basicanalytics.html)  
 [Week 5: Standards in Curation](https://naomim298.github.io/MCA-2019/labs/week5/standardsincuration.html)  
 Week 6: Reading Week (no lab)  
