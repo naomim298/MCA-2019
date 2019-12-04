@@ -18,7 +18,11 @@
 		<classification>
                      <genre>1970s, Rock, Pop Rock, Soft Rock, Blues Rock</genre>
                   </classification>
-			</editionstmt>     
+			<respStmt>
+				<corpname>Warner Bros</corpname>
+				<!--encoded by Naomi MacKenzie:-->
+				</respstmt>
+			<editionstmt>
        <pubStmt>
            <corpName>
                <publisher>University of Glasgow Digital Media and Information Studies</publisher>
