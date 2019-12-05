@@ -4,51 +4,50 @@
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
 	<heading>Schema</heading>
 	   <meiHead>
-        <fileDesc>
+<fileDesc>
             <titleStmt>
-                <title>Go Your Own Way</title> 
-                <title type="subtitle">
-                    <identifier>Encoded works of Fleetwood Mac</identifier> 
-                </title>
+               <title>Go Your Own Way</title> 
+               <title type="subtitle">
+                 <identifier>Encoded works of Fleetwood Mac</identifier> 
+               </title>
             </titleStmt>
-                <editionStmt>
-                      <date>1976.</date>
-                      <edition>Second draft, significantly revised.</edition>
-                      <pubPlace>California</pubPlace>
-		<classification>
-                     <genre>1970s, Rock, Pop Rock, Soft Rock, Blues Rock</genre>
-                  </classification>
-			<respStmt>
-				<corpname>Warner Bros</corpname>
-				<!--encoded by Naomi MacKenzie:-->
-				<name>Naomi MacKenzie</name>
-				</respstmt>
-			</editionstmt>
-       <pubStmt>
-           <corpName>
+             <editionStmt>
+                 <date>1976.</date>
+                 <edition>Second draft, significantly revised.</edition>
+                 <pubPlace>California</pubPlace>
+		 <classification>
+                   <genre>1970s, Rock, Pop Rock, Soft Rock, Blues Rock</genre>
+                 </classification>
+	     <respStmt>
+		<corpname>Warner Bros</corpname>
+		<!--encoded by Naomi MacKenzie:-->
+		<name>Naomi MacKenzie</name>
+	     </respstmt>
+	   </editionstmt>
+            <pubStmt>
+                <corpName>
                <publisher>University of Glasgow Digital Media and Information Studies</publisher>
-           </corpName>
-                <address>
-                   <addrLine>
-                     <geogName>Glasgow, United Kingdom</geogName>
-                       </addrline>
-           </address>
-               </pubStmt>
-		   
-       <workstmt>
-       <work>
-            <key>F major</key>
-               <tempo>136 BPM</tempo>
+               </corpName>
+               <address>
+               <addrLine>
+                <geogName>Glasgow, United Kingdom</geogName>
+                </addrline>
+               </address>
+            </pubStmt>
+	    <workstmt>
+                <work>
+                  <key>F major</key>
+                  <tempo>136 BPM</tempo>
                   <language>
-                     <langUsage>
-                       <language xml:id"en-US">American English</language>
+                    <langUsage>
+                      <language xml:id"en-US">American English</language>
                     </langUsage>
-                    </language>
+                  </language>
                   <context>Written by Lindsay Buckingham in relation to his break up with bandmate, Stevie Nicks.
                     <xml:id="https://www.songfacts.com/facts/fleetwood-mac/go-your-own-way">
                   </context>
-                     </workstmt>
-
+           </workstmt>
+       </fileDesc>		
         <encodingDesc xml:id="encodingdesc-0000001582209656">
             <appInfo xml:id="appinfo-0000000904223861">
                 <application xml:id="application-0000001242006595" isodate="2019-10-10T13:17:28" version="2.2.0-dev-c01b3a1-dirty">
