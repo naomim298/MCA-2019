@@ -58,8 +58,9 @@
                 </application>
             </appInfo>
         </encodingDesc>
-                                              
-                                                                                                                   
+	</meiHead>
+       <music>
+	    <body>                                                                                                  
             <mdiv xml:id="mdiv-0000000396780216">
                 <score xml:id="score-0000000188389002">
                     <scoreDef xml:id="scoredef-0000000746282770">
