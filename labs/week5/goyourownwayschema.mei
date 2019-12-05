@@ -34,18 +34,6 @@
                </address>
             </pubStmt>
 	    <workstmt>
-                <work>
-                  <key>F major</key>
-                  <tempo>136 BPM</tempo>
-                  <language>
-                    <langUsage>
-                      <language xml:id"en-US">American English</language>
-                    </langUsage>
-                  </language>
-                  <context>Written by Lindsay Buckingham in relation to his break up with bandmate, Stevie Nicks.
-                    <xml:id="https://www.songfacts.com/facts/fleetwood-mac/go-your-own-way">
-                  </context>
-	        </work>
            </workstmt>
        </fileDesc> 
         <encodingDesc xml:id="encodingdesc-0000001582209656">
