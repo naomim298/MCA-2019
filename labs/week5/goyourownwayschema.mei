@@ -14,24 +14,22 @@
                  <date>1976.</date>
                  <edition>Second draft, significantly revised.</edition>
                  <pubPlace>California</pubPlace>
-		  <classification>
+		 <classification>
                    <genre>1970s, Rock, Pop Rock, Soft Rock, Blues Rock</genre>
-                  </classification>
+                 </classification>
 	     <respStmt>
 		<corpname>Warner Bros</corpname>
-		<!--encoded by Naomi MacKenzie:-->
-		<name>Naomi MacKenzie</name>
 	     </respstmt>
 	   </editionstmt>
             <pubStmt>
-               <corpName>
-                <publisher>University of Glasgow Digital Media and Information Studies</publisher>
-               </corpName>
+                <corpName>
+               <publisher>University of Glasgow Digital Media and Information Studies</publisher>
+                </corpName>
                <address>
-                <addrLine>
-                 <geogName>Glasgow, United Kingdom</geogName>
-               </addrline>
-              </address>
+               <addrLine>
+                <geogName>Glasgow, United Kingdom</geogName>
+                </addrline>
+               </address>
             </pubStmt>
 	    <workstmt>
            </workstmt>
