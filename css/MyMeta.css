@@ -65,7 +65,7 @@ mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
 }
   
 
-mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher{
+mei-filedesc > mei-pubstmt > mei-publisher{
   display: block;
 }
 
