@@ -74,7 +74,7 @@ mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher{
   display: block;
 }
 
-mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher::before
+mei-filedesc > mei-pubstmt > mei-publisher::before
 {
   content: "Published by: ";
   font-weight: bold;
