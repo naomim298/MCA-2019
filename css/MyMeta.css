@@ -69,16 +69,6 @@ mei-filedesc > mei-editionstmt > mei-respstmt > mei-name{
   display: none;
   }
 
-mei-filedesc > mei-pubstmt > mei-date::after {
-  content: '\a \a';
-  white-space: pre;
-}
-
-mei-filedesc > mei-editionstmt > mei-respstmt > mei-name::before
-{
- content: "Revised by: ";
-  font-weight: bold;
-}
 
 mei-filedesc > mei-pubstmt > mei-corpname > mei-publisher{
   display: block;
