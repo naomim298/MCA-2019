@@ -1,5 +1,5 @@
 
-mei-filedesc > mei-titlestmt > mei-title 
+mei-filedesc > mei-titleStmt > mei-title 
 {
   color: black;
   display: block;
@@ -7,7 +7,7 @@ mei-filedesc > mei-titlestmt > mei-title
   font-size: 24pt;
 }
 
-mei-filedesc > mei-titlestmt > mei-subtitle {
+mei-filedesc > mei-titleStmt > mei-subtitle {
  display: block;
   colour: black;
   font-family: Cambria;
@@ -15,16 +15,16 @@ mei-filedesc > mei-titlestmt > mei-subtitle {
   font-size: 20pt;
 }
 
-mei-filedesc > mei-editionstmt > mei-date {
+mei-filedesc > mei-editionStmt > mei-date {
    display: block;
  }
 
-mei-filedesc > mei-editionstmt > mei-date::before
+mei-filedesc > mei-editionStmt > mei-date::before
 {
   content: "Year Released: " ;
     font-weight: bold;
 }
-mei-filedesc > mei-editionstmt > mei-edition{
+mei-filedesc > mei-editionStmt > mei-edition{
   display: block;
 }
 
@@ -38,49 +38,49 @@ mei-filedesc > mei-editionstmt > mei-pubplace{
     display: block;
 }
 
-mei-filedesc > mei-editionstmt > mei-pubplace::before
+mei-filedesc > mei-editionStmt > mei-pubPlace::before
 {
    content: "Recorded in: ";
   font-weight: bold;
 }
 
 
-mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname{
+mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpName{
   display: block;
 }
 
-mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname::before
+mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpName::before
 {
   content: "Record Label: ";
   font-weight: bold;
 }
   
 
-mei-filedesc > mei-pubstmt > mei-publisher{
+mei-filedesc > mei-pubStmt > mei-publisher{
   display: block;
 }
 
-mei-filedesc > mei-pubstmt > mei-publisher::before
+mei-filedesc > mei-pubStmt > mei-publisher::before
 {
   content: "Published by: ";
   font-weight: bold;
 }
 
-mei-filedesc > mei-pubstmt > mei-address > mei-addrLine > mei-geogname{
+mei-filedesc > mei-pubStmt > mei-address > mei-addrLine > mei-geogname{
   display: block;
   }
 
-mei-filedesc > mei-pubstmt > mei-address > mei-addrLine > mei-geogname::before
+mei-filedesc > mei-pubStmt > mei-address > mei-addrLine > mei-geogname::before
 {
   content: "Location: ";
   font-weight: bold;
 }
 
-mei-workList > mei-work > mei-classification > mei-genre{
+mei-workDesc > mei-workList > mei-work > mei-classification > mei-genre{
    display: block; 
   }
 
-mei-workList > mei-work > mei-classification > mei-genre::before
+mei-workDesc > mei-workList > mei-work > mei-classification > mei-genre::before
 {
   content: "Genre Categories: ";
   font-weight: bold;
