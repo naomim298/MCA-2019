@@ -14,10 +14,7 @@
                  <date>1976.</date>
                  <edition>Second draft, significantly revised.</edition>
                  <pubPlace>California</pubPlace>
-		 <classification>
-                   <genre>1970s, Rock, Pop Rock, Soft Rock, Blues Rock</genre>
-                 </classification>
-	     <respStmt>
+		 <respStmt>
 		<corpname>Warner Bros</corpname>
 	     </respstmt>
 	   </editionstmt>
@@ -26,7 +23,7 @@
                <address>
                <addrLine>
                 <geogName>Glasgow, United Kingdom</geogName>
-                </addrline>
+                </addrLine>
                </address>
             </pubStmt>
        </fileDesc> 
@@ -38,6 +35,13 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        <workList>
+          <work>
+            <classification>
+               <genre>1970s, Rock, Pop Rock, Soft Rock, Blues Rock</genre>
+            </classification>
+          </work>
+          </workList>
     </meiHead>
     <music>
         <body>
