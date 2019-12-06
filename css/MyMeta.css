@@ -45,11 +45,11 @@ mei-filedesc > mei-editionStmt > mei-pubPlace::before
 }
 
 
-mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpName{
+mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpname{
   display: block;
 }
 
-mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpName::before
+mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpname::before
 {
   content: "Record Label: ";
   font-weight: bold;
@@ -66,11 +66,11 @@ mei-filedesc > mei-pubStmt > mei-publisher::before
   font-weight: bold;
 }
 
-mei-filedesc > mei-pubStmt > mei-address > mei-addrLine > mei-geogname{
+mei-filedesc > mei-pubStmt > mei-address > mei-addrLine > mei-geoGname{
   display: block;
   }
 
-mei-filedesc > mei-pubStmt > mei-address > mei-addrLine > mei-geogname::before
+mei-filedesc > mei-pubStmt > mei-address > mei-addrLine > mei-geoGname::before
 {
   content: "Location: ";
   font-weight: bold;
