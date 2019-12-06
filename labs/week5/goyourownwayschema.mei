@@ -17,7 +17,7 @@
 		 <respStmt>
 		<corpname>Warner Bros</corpname>
 	     </respstmt>
-	   </editionstmt>
+	   </editionStmt>
             <pubStmt>
                <publisher>University of Glasgow Digital Media and Information Studies</publisher>
                <address>
@@ -35,13 +35,15 @@
                 </application>
             </appInfo>
         </encodingDesc>
+      <workDesc
         <workList>
           <work>
             <classification>
                <genre>1970s, Rock, Pop Rock, Soft Rock, Blues Rock</genre>
             </classification>
           </work>
-          </workList>
+         </workList>
+      </workDesc>
     </meiHead>
     <music>
         <body>
