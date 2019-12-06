@@ -44,15 +44,6 @@ mei-filedesc > mei-editionstmt > mei-pubplace::before
   font-weight: bold;
 }
 
-mei-filedesc > mei-editionstmt > mei-classification > mei-genre{
-   display: block; 
-  }
-
-mei-filedesc > mei-editionstmt > mei-classification > mei-genre::before
-{
-  content: "Genre Categories: ";
-  font-weight: bold;
-}
 
 mei-filedesc > mei-editionstmt > mei-respstmt > mei-corpname{
   display: block;
@@ -75,18 +66,24 @@ mei-filedesc > mei-pubstmt > mei-publisher::before
   font-weight: bold;
 }
 
-mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname{
+mei-filedesc > mei-pubstmt > mei-address > mei-addrLine > mei-geogname{
   display: block;
   }
 
-mei-filedesc > mei-pubstmt > mei-address > mei-addrline > mei-geogname::before
+mei-filedesc > mei-pubstmt > mei-address > mei-addrLine > mei-geogname::before
 {
   content: "Location: ";
   font-weight: bold;
 }
 
-mei-filedesc > workstmt {
-  display: none;
+mei-workList > mei-work > mei-classification > mei-genre{
+   display: block; 
+  }
+
+mei-workList > mei-work > mei-classification > mei-genre::before
+{
+  content: "Genre Categories: ";
+  font-weight: bold;
 }
 
 html {
