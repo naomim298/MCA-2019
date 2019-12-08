@@ -103,6 +103,7 @@ mei-workList > mei-work > mei-classification > mei-genre::before
 mei-workList > mei-work > mei-classification > mei-genre::after
 {
   content: '\a' '\a';
+  white space: pre;
 }
 
 html {
