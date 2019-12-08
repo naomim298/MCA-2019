@@ -45,11 +45,11 @@ mei-filedesc > mei-editionStmt > mei-pubPlace::before
 }
 
 
-mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpname{
+mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpName{
   display: block;
 }
 
-mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpname::before
+mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpName::before
 {
   content: "Record Label: ";
   font-weight: bold;
