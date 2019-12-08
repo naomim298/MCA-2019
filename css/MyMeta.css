@@ -76,11 +76,11 @@ mei-filedesc > mei-pubStmt > mei-address > mei-addrLine > mei-geoGname::before
   font-weight: bold;
 }
 
-mei-workDesc > mei-workList > mei-work > mei-classification > mei-genre{
+mei-workList > mei-work > mei-classification > mei-genre{
    display: block; 
   }
 
-mei-workDesc > mei-workList > mei-work > mei-classification > mei-genre::before
+mei-workList > mei-work > mei-classification > mei-genre::before
 {
   content: "Genre Categories: ";
   font-weight: bold;
