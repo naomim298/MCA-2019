@@ -7,7 +7,7 @@ mei-filedesc > mei-titleStmt > mei-title
   font-size: 22pt;
 }
 
-mei-filedesc > mei-titleStmt > mei-title[type="subtitle] {
+mei-filedesc > mei-titleStmt > mei-title[type="subtitle"] {
  display: block;
   colour: black;
   font-family: Cambria;
