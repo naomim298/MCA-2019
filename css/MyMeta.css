@@ -75,7 +75,18 @@ mei-filedesc > mei-pubStmt > mei-address > mei-addrLine > mei-geogName::before
   content: "Location: ";
   font-weight: bold;
 }
-mei-encodingDesc{
+
+mei-filedesc > mei-pubStmt > mei-availability > mei-useRestrict{
+  display: block;
+}
+
+mei-filedesc > mei-pubStmt > mei-availability > mei-useRestrict::before
+{
+  content: "Copyright: ";
+  font-weight: bold;
+}
+  
+  mei-encodingDesc{
   display: none;
 }
 
