@@ -56,24 +56,27 @@ mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpName::before
 }
   
 
-mei-filedesc > mei-pubStmt > mei-publisher{
+mei-filedesc > mei-pubStmt > mei-publisher > mei-corpName{
   display: block;
 }
 
-mei-filedesc > mei-pubStmt > mei-publisher::before
+mei-filedesc > mei-pubStmt > mei-publisher > mei-corpName::before
 {
   content: "Published by: ";
   font-weight: bold;
 }
 
-mei-filedesc > mei-pubStmt > mei-address > mei-addrLine > mei-geoGname{
+mei-filedesc > mei-pubStmt > mei-address > mei-addrLine > mei-geogName{
   display: block;
   }
 
-mei-filedesc > mei-pubStmt > mei-address > mei-addrLine > mei-geoGname::before
+mei-filedesc > mei-pubStmt > mei-address > mei-addrLine > mei-geogName::before
 {
   content: "Location: ";
   font-weight: bold;
+}
+mei-encodingDesc{
+  display: none;
 }
 
 mei-workList > mei-work > mei-classification > mei-genre{
