@@ -5,16 +5,15 @@ mei-filedesc > mei-titleStmt > mei-title
   display: block;
   font-family: Cambria;
   font-size: 22pt;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
-mei-filedesc > mei-titleStmt > mei-title[type="subtitle"] {
- display: block;
+mei-filedesc > mei-titleStmt > mei-title[type="subtitle"]{
   colour: black;
+  display: block;
   font-family: Cambria;
   display: block;
-  font-size: 20pt;
-  margin-top: 1em;
+  font-size: 18pt;
 }
 
 mei-filedesc > mei-editionStmt > mei-date {
