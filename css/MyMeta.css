@@ -55,7 +55,10 @@ mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpName::before
   content: "Record Label: ";
   font-weight: bold;
 }
-  
+mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpName::after{
+  content: '\a' '\a';
+  white space: pre;
+}
 
 mei-filedesc > mei-pubStmt > mei-publisher > mei-corpName{
   display: block;
@@ -101,8 +104,7 @@ mei-workList > mei-work > mei-classification > mei-genre::before
   font-weight: bold;
 }
 
-mei-workList > mei-work > mei-classification > mei-genre::after
-{
+mei-workList > mei-work > mei-classification > mei-genre::after{
   content: '\a' '\a';
   white space: pre;
 }
