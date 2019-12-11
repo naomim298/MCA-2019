@@ -5,7 +5,7 @@ mei-filedesc > mei-titleStmt > mei-title
   display: block;
   font-family: Cambria;
   font-size: 22pt;
-  margin-top: 0.5em;
+  margin-top: 0.25em;
 }
 
 mei-filedesc > mei-titleStmt > mei-title[type="subtitle"]{
@@ -56,13 +56,10 @@ mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpName::before
   content: "Record Label: ";
   font-weight: bold;
 }
-mei-filedesc > mei-editionStmt > mei-respStmt > mei-corpName::after{
-  content: '\a' '\a';
-  white space: pre;
-}
 
 mei-filedesc > mei-pubStmt > mei-publisher > mei-corpName{
   display: block;
+  margin-top: 0.5em;
 }
 
 mei-filedesc > mei-pubStmt > mei-publisher > mei-corpName::before
@@ -105,10 +102,6 @@ mei-workList > mei-work > mei-classification > mei-genre::before
   font-weight: bold;
 }
 
-mei-workList > mei-work > mei-classification > mei-genre::after{
-  content: '\a' '\a';
-  white space: pre;
-}
 
 html {
   margin: 1;
