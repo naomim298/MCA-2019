@@ -18,7 +18,8 @@ mei-filedesc > mei-titleStmt > mei-title[type="subtitle"]{
 
 mei-filedesc > mei-editionStmt > mei-date {
    display: block;
- }
+  margin-top: 0.5em;
+}
 
 mei-filedesc > mei-editionStmt > mei-date::before
 {
